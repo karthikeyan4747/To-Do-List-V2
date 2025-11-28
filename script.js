@@ -7,6 +7,7 @@ function addlist(){
      if(inp.value===""){
     alert("type something BOZO")
     return;
+     }
     li.textContent=inp.value;
     inp.value="";
     const button = document.createElement("button")
@@ -18,6 +19,7 @@ function addlist(){
      })
    
 }
+
 
 
 
